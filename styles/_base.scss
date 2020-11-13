@@ -10,3 +10,31 @@ html {
     font-size: $font-size;
     box-sizing: content-box;
 }
+
+body {
+    background: $light-grayish-blue;
+}
+
+.font-white {
+    color: $white;
+}
+
+.font-grayish {
+    color: $very-dark-grayish-blue;
+}
+
+.violet {
+    background: $moderate-violet;
+}
+
+.grayish-blue {
+    background: $very-dark-grayish-blue;
+}
+
+.blackish-blue {
+    background: $very-dark-blackish-blue;
+}
+
+.white {
+    background: $white;
+}

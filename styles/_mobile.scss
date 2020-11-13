@@ -1,0 +1,61 @@
+@use './variables' as *;
+
+.container {
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    .quote {
+        border-radius: 12px;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+
+        .quote-marks {
+            position: absolute;
+            z-index: -1;
+            width: 9.5rem;
+            top: 5%;
+            right: 10%;
+        }
+
+        .quote-user {
+            margin-bottom: 1rem;
+
+            .quote-user__photo {
+                float: left;
+                width: 2.5rem;
+                border-radius: 24px;
+                margin-right: 1rem;
+                margin-top: 6.5px;
+            }
+
+            .quote-user__username {
+                padding-bottom: 4px;
+            }
+
+            .quote-user__verified {
+                opacity: 0.6;
+            }
+        }
+    }
+    
+    .quote-quotes {
+        line-height: 1.5rem;
+        text-align: left;
+
+        .quote-quotes__abstract {
+            padding-right: 1.2rem;
+            padding-bottom: 2rem;
+            line-height: 2rem;
+        }
+
+        .quote-quotes__testimonial {
+            padding-right: 1.8rem;
+            opacity: 0.7;
+        }
+    }
+}
