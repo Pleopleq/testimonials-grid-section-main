@@ -1,0 +1,35 @@
+@media (min-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .container {
+        width: 95%;
+        column-gap: 2.3em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template:  "purple-row purple-row "
+                        "grayish-small  white-small"
+                        "blackish-row white-colum"
+                        "blackish-row  white-column";
+        .quote {
+            padding: 2rem;
+        }
+    }
+
+    .purple-row { 
+        grid-area: purple-row;
+    }
+
+    .grayish-small {
+        grid-area: grayish-small;
+    }
+    .white-column {
+        grid-area: white-column;
+    }
+    .white-small {
+        grid-area: white-small;
+    }
+    .blackish-row {
+        grid-area: blackish-row;
+    }
+}

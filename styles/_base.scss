@@ -13,6 +13,11 @@ html {
 
 body {
     background: $light-grayish-blue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .font-white {
@@ -24,7 +29,10 @@ body {
 }
 
 .violet {
-    background: $moderate-violet;
+    
+    background: url("../images/bg-pattern-quotation.svg") no-repeat;
+    background-position: top right 7rem;
+    background-color: $moderate-violet;
 }
 
 .grayish-blue {
